@@ -1,0 +1,31 @@
+@import 'fonts';
+@import 'variables';
+@import 'libs/normalize';
+
+@import 'components/dropdown';
+
+body {
+  background: $white;
+  padding: 50px 0;
+  height: 100%;
+  @media (max-width: 768px) {
+    padding: 20px 0;
+  }
+}
+
+.wrapper {
+  height: 100%;
+  background-color: #fff;
+  margin: auto;
+  max-width: 1400px;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: 700;
+}
